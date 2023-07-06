@@ -5,3 +5,5 @@ export default defineConfig({
     site: 'https://kpale29.github.io',
     base: '/exactec.github.io',
 });
+
+

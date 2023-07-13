@@ -19,19 +19,46 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<nav id="header-nav">
-			<img id="header-logo" src=`./logo.png` alt="Logo" />
+		<!-- <nav  class= "shadow-[0_4px_4px_0_rgba(0,0,0,0.0.5)] w-full  items-center justify-between h-1.5" >
+			<img id="header-logo" src=`logo.png` alt="Logo" />
 			<ul id="item-list">
-				<li class="nav-item"><a href="/exactec.github.io/">Inicio</a></li>
-				<li class="nav-item"><a href="/exactec.github.io/marcas">Marcas</a></li>
-				<li class="nav-item"><a href="/exactec.github.io/productos">Productos</a></li>
-				<li class="nav-item"><a href="/exactec.github.io/contacto">Contáctenos</a></li>  
+				<li class="nav-item"><a href="/exactec/">Inicio</a></li>
+				<li class="nav-item"><a href="/exactec/marcas">Marcas</a></li>
+				<li class="nav-item"><a href="/exactec/productos">Productos</a></li>
+				<li class="nav-item"><a href="/exactec/contacto">Contáctenos</a></li>  
 			</ul>
 			<div id="search-form">
 				<input id="search-input" type="text" placeholder="Buscar producto" />
 				<i class="material-icons icon">search</i>
 			</div>
 		  </nav>
+		<slot /> -->
+		<header class="">
+			<nav class="shadow-md min-w-[375px] w-full h-28 flex justify-between items-center px-[35px] md:px-[81px] bg-secondary-bg">
+				<figure class="w-[113px]">
+					<img class="w-full" src=`logo.png` alt="Logo" />
+				</figure>
+
+				<div class="flex justify-center items-center">
+					<div class="rounded-2xl border relative flex">
+						<input class="" type="text" placeholder="Buscar producto" />
+						<i class="material-icons icon">search</i>
+					</div>
+					<button onclick="alert('tu madre lmaldit maldito crutch')">
+						<i class="material-icons icon text-[54px] text-primary-text/50">menu</i>
+					</button>
+				</div>
+
+				<!-- #search-form{
+					border-radius: 19.808px;
+					border: 0.5px solid rgba(0, 0, 0, 0.20);
+					background: #FFF;
+					position: relative;
+					display: flex;
+					margin-right: 100px;
+				} -->
+			</nav>
+		</header>
 		<slot />
 	</body>
 </html>
@@ -49,6 +76,10 @@ const { title } = Astro.props;
 	code {
 		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
 			Bitstream Vera Sans Mono, Courier New, monospace;
+	}
+
+	button{
+		-webkit-tap-highlight-color: transparent;
 	}
 
 	#header-nav{
@@ -78,14 +109,7 @@ const { title } = Astro.props;
 		text-decoration: none;
 		color: inherit;
 	}
-	#search-form{
-		border-radius: 19.808px;
-		border: 0.5px solid rgba(0, 0, 0, 0.20);
-		background: #FFF;
-		position: relative;
-		display: flex;
-		margin-right: 100px;
-	}
+
 
 	#search-input{
 		border: none;

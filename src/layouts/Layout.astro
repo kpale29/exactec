@@ -17,15 +17,12 @@ const { title } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
-    <header class="">
-	<script>
-	
-		document.querySelector('.nav-icon3').addEventListener('click', ()=> 
-		{
-			document.querySelector('.nav-icon3').classList.toggle('open');
-		}
-		);
-	</script>
+    <header>
+      <script>
+        document.querySelector(".nav-icon3").addEventListener("click", () => {
+          document.querySelector(".nav-icon3").classList.toggle("open");
+        });
+      </script>
       <nav
         class="shadow-md min-w-[375px] w-full h-28 flex justify-between items-center px-[35px] md:px-[81px] bg-secondary-bg"
       >
@@ -34,6 +31,28 @@ const { title } = Astro.props;
         </figure>
 
         <div class="flex justify-center items-center">
+          <div class="hidden lg:block">
+            <ul class="flex list-none p-0">
+              <li class="me-[45px]">
+                <a class="decoration-none text-inherit" href="/exactec/"
+                  >Inicio</a>
+              </li>
+              <li class="me-[45px]">
+                <a
+                  class="decoration-none text-inherit"
+                  href="/exactec/productos">Productos</a>
+              </li>
+              <li class="me-[45px]">
+                <a class="decoration-none text-inherit" href="/exactec/marcas"
+                  >Servicios</a>
+              </li>
+              <li class="me-[45px]">
+                <a class="decoration-none text-inherit" href="/exactec/contacto"
+                  >Contáctenos</a>
+              </li>
+            </ul>
+          </div>
+
           <div class="rounded-2xl border relative flex px-[10px]">
             <input
               class="focus:outline-none"
@@ -42,16 +61,61 @@ const { title } = Astro.props;
             />
             <i class="material-icons icon">search</i>
           </div>
-		  <div class="nav-icon3 w-[40px] h-[45px] transform rotate-0 transition duration-[.5s] ease-in-out cursor-pointer mt-5 ms-3">
-			<span class="bg-primary-text/50 block absolute h-[5px] w-full rounded-9 opacity-100 left-0 transform rotate-0 transition duration-[.25s] ease-in-out"></span>
-			<span class="bg-primary-text/50 block absolute h-[5px] w-full rounded-9 opacity-100 left-0 transform rotate-0 transition duration-[.25s] ease-in-out"></span>
-			<span class="bg-primary-text/50 block absolute h-[5px] w-full rounded-9 opacity-100 left-0 transform rotate-0 transition duration-[.25s] ease-in-out"></span>
-			<span class="bg-primary-text/50 block absolute h-[5px] w-full rounded-9 opacity-100 left-0 transform rotate-0 transition duration-[.25s] ease-in-out"></span>
-		  </div>
+
+          <div class="lg:hidden">
+            <div
+              class="nav-icon3 w-[40px] h-[45px] transform rotate-0 transition duration-[.5s] ease-in-out cursor-pointer mt-5 ms-3"
+            >
+              <span
+                class="bg-primary-text/50 block absolute h-[5px] w-full rounded-9 opacity-100 left-0 transform rotate-0 transition duration-[.25s] ease-in-out"
+              ></span>
+              <span
+                class="bg-primary-text/50 block absolute h-[5px] w-full rounded-9 opacity-100 left-0 transform rotate-0 transition duration-[.25s] ease-in-out"
+              ></span>
+              <span
+                class="bg-primary-text/50 block absolute h-[5px] w-full rounded-9 opacity-100 left-0 transform rotate-0 transition duration-[.25s] ease-in-out"
+              ></span>
+              <span
+                class="bg-primary-text/50 block absolute h-[5px] w-full rounded-9 opacity-100 left-0 transform rotate-0 transition duration-[.25s] ease-in-out"
+              ></span>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
+
     <slot />
+
+    <footer class="h-[595px] w-full">
+      <div class="flex flex-col  px-9 py-12 justify-between
+        bg-primary-bg h-full w-full">
+          <figure class="w-[304px] ">
+            <img class="w-full" src=`logo.png` alt="Logo" />
+          </figure>
+          
+          <ul class="[&>li]:mb-1">
+            <li><a> Productos</a></li>
+            <li><a> Servicios</a></li>
+            <li><a> Contáctenos</a></li>
+          </ul>
+    
+          
+          <ul class="[&>li]:mb-1">
+            <li><p>Info</p></li>
+
+            <li class="flex"><figure class="w-[27px] me-[10px]">
+            <img class="w-full" src=`icono-mail.svg` alt="Logo" />
+            </figure><p>info@exactec.com.gt</p></li>
+
+            <li class="flex"><figure class="w-[27px] me-[10px]">
+              <img class="w-full" src=`icono-tel.svg` alt="Logo" /></figure><p>(+502) 5755 - 8774</p></li>
+
+          </ul>
+          <p class="pe-7">Todos los derechos reservados, Exactitud y Tecnología.</p>
+          <p class="">www.exactec.com.gt</p>
+      </div>
+     
+    </footer>
   </body>
 </html>
 
@@ -75,7 +139,7 @@ const { title } = Astro.props;
       DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
   }
 
-  button {
+  .nav-icon3 .nav-icon3.open {
     -webkit-tap-highlight-color: transparent;
   }
 
@@ -118,5 +182,3 @@ const { title } = Astro.props;
     left: 50%;
   }
 </style>
-
-

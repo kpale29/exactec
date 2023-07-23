@@ -5,77 +5,26 @@ import Card from '../components/Card.astro';
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
+		<!-- Section Bienvenido -->
+    	<section class="flex items-center justify-center h-[444px] md:h-[469px] xl:h-[512]">
+			<div class="text-[#2F2F2F] font-inter not-italic leading-[22.4px] text-center w-[375px] md:w-[754px] xl:w-[1280px]">
+				<p class="text-[26px] font-normal">
+					¡Bienvenidos a Exactitud y Tecnología!
+				<br /><br />
+				<span class="text-[16px] font-light">
+					<span class="font-bold">Exactitud y Tecnología</span>, es una empresa guatemalteca que brinda el
+					<span class="font-bold">soporte y asesoría</span> necesaria para iniciar, ejecutar, mantener los 
+					proyectos y procesos <span class="font-bold">que mejorarán la eficacia de su empresa.</span>
+				</span>
+				<br /><br />
+				<span class="text-[16px] font-light">
+			  	Nuestro personal posee <span class="font-bold">experiencia con más de 28 años</span> en el 
+			  	tratamiento de equipo de medición, capacitado en fábricas y firmas reconocidas a nivel mundial.
+				</span>
+			</div>
+    	</section>
+  </main>
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		border: 1px solid rgba(var(--accent), 25%);
-		background-color: white;
-		padding: 1rem;
-		border-radius: 0.4rem;
-	}
-	.instructions code {
-		font-size: 0.875em;
-		font-weight: bold;
-		background: rgba(var(--accent), 12%);
-		color: rgb(var(--accent));
-		border-radius: 4px;
-		padding: 0.3em 0.45em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
 </style>

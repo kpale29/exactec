@@ -7,9 +7,9 @@ import Card from '../components/Card.astro';
 	<main>
 		<!-- Section Bienvenido -->
     	<section class="flex items-center justify-center h-[444px] md:h-[469px] xl:h-[512] px-[35px] md:px-[83px] xl:px-[294px] bg-[#FFF]">
-			<div class="text-[#2F2F2F] font-inter not-italic leading-[22.4px] text-left md:text-center xl:text-center w-[375px] md:w-[754px] xl:w-[1280px]">
+			<div class="text-[#2F2F2F] font-inter not-italic leading-[22.4px] text-left md:text-center xl:text-center w-[375px] md:w-[835px] xl:w-[1440px]">
 				<p class="text-[26px] font-normal">
-					¡Bienvenidos a Exactitud y Tecnología!
+					<span class="leading-normal">¡Bienvenidos a Exactitud y Tecnología!</span>
 				<br /><br />
 				<span class="text-[16px] font-light">
 					<span class="font-bold">Exactitud y Tecnología</span>, es una empresa guatemalteca que brinda el
@@ -30,14 +30,14 @@ import Card from '../components/Card.astro';
 		<div class="md:hidden xl:hidden h-[1px] w-[329px] bg-[#C1C1C1] mx-auto"></div>
 		<!--  Section Nuestro servicios -->
 		<section class="flex items-center justify-center h-[984px] md:h-[835px] xl:h-[958px] pl-[35px] md:pl-[51px] xl:pl-[205px] bg-[#FFF]">
-			<div class="text-[#2F2F2F] font-inter not-italic leading-[22.4px] text-left w-[375px] md:w-[754px] xl:w-[1280px]">
+			<div class="text-[#2F2F2F] font-inter not-italic leading-[22.4px] text-left w-[375px] md:w-[835px] xl:w-[1440px]">
 				<div>
 					<p class="text-[40px] font-normal">
 						Nuestros servicios
 					</p>
 				</div>
 				<br />
-				<div class="container mx-auto text-[16px] font-light px-[35px]">
+				<div class="container mx-auto text-[16px] font-light">
 					<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
 						<div class="md:col-span-1 xl:col-span-1">
 							<div class="flex flex-row md:flex-row xl:flex-row items-center">
@@ -137,7 +137,42 @@ import Card from '../components/Card.astro';
 			</div>
 		</section>
 
+		<!-- Section Le ayudamos a... -->
+		<section class="flex flex-col items-center justify-center h-[1424px] md:h-[770px] xl:h-[870px] pl-[35px] md:pl-[81px] md:pt-[10px] xl:pl-[205px] xl:pr-[100px] xl:pt-[124px] bg-[#F1F7FB]">
+			<div class="text-[#2F2F2F] font-inter not-italic leading-[22.4px] text-left w-[375px] md:w-[835px] xl:w-[1440px]">
+				<div class="hidden md:block xl:block md:w-[290px] md:h-[539px] xl:w-[400px] xl:h-[743px] md:col-start-1 xl:col-start-1 md:float-left xl:float-left md:mr-[54px] xl:mr-[125px]">
+					<img src="img-tecnologia-de-vanguardia.png" alt="Tecnología de vanguardia" class="w-[305px] h-[567px] object-cover rounded" />
+				</div>
+				<div class="md:grid md:grid-cols-2 md:gap-x-6 xl:grid xl:grid-cols-2 xl:gap-x-6 md:mr-[82px] xl:mr-[100px]">
+					<div class="md:col-span-2 xl:col-span-2 xl:w-[610px]">
+						<div>
+							<p class="text-[40px] font-normal leading-normal">
+								Le ayudamos a contar con tecnología de vanguardia
+							</p>
+						</div>
+						<br />
+						<div class="container mx-auto text-[16px] font-light leading[140%]">
+							<p>Nos especializamos en venta de equipo de medición, soporte técnico, reparación, mantenimiento preventivo/correctivo 
+								y calibración a equipos de laboratorio, medición y control.
+								<br /><br />
 
+								Exactitud y Tecnología posee las herramientas necesarias para realizar el ajuste y/o calibración a instrumentos 
+								de pesaje acorde a las normas nacionales e internacionales de metrología aplicadas a los instrumentos de pesaje, 
+								a través de personal calificado para realizarlo.
+							</p>
+						</div>
+						<br />
+						<div >
+							<button type="button" onclick="location.href='./productos'" class="border border-[#1B75BB] w-[224px] h-[49px] text-[#1B75BB] hover:bg-[#1B75BB] duration-[0.4s] hover:text-white flex items-center justify-center xl:cursor-pointer text-[16px]">Ver productos</button>
+						</div>
+					</div>
+					<br /><br />
+					<div class="md:hidden xl:hidden mt-6">
+						<img src="img-tecnologia-de-vanguardia.png" alt="Tecnología de vanguardia" class="w-[305px] h-[567px] object-cover rounded" />
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 </Layout>
 <style>

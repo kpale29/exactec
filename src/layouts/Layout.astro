@@ -19,8 +19,8 @@ const { title } = Astro.props;
   <body>
     <header>
       <script>
-        document.querySelector(".nav-icon3").addEventListener("click", () => {
-          document.querySelector(".nav-icon3").classList.toggle("open");
+        document.querySelector('.nav-icon3').addEventListener('click', () => {
+          document.querySelector('.nav-icon3').classList.toggle('open');
         });
       </script>
       <nav
@@ -45,8 +45,9 @@ const { title } = Astro.props;
                 >
               </li>
               <li class="me-[45px]">
-                <a class="decoration-none text-inherit" href="/exactec/servicios"
-                  >Servicios</a
+                <a
+                  class="decoration-none text-inherit"
+                  href="/exactec/servicios">Servicios</a
                 >
               </li>
               <li class="me-[45px]">
@@ -57,7 +58,9 @@ const { title } = Astro.props;
             </ul>
           </div>
 
-          <div class="hidden lg:block rounded-2xl border relative flex px-[10px]">
+          <div
+            class="hidden lg:block rounded-2xl border relative flex px-[10px]"
+          >
             <input
               class="focus:outline-none"
               type="text"
@@ -91,7 +94,9 @@ const { title } = Astro.props;
     <slot />
 
     <footer class="h-[595px] w-full md:h-[355px]">
-      <div class="flex flex-col md:px-[90px] px-9 py-12 justify-between md:justify-items-center md:items-center bg-primary-bg h-full w-full md:grid md:grid-cols-3 md:gap-3">
+      <div
+        class="flex flex-col md:px-[90px] px-9 py-12 justify-between md:justify-items-center md:items-center bg-primary-bg h-full w-full md:grid md:grid-cols-3 md:gap-3"
+      >
         <figure class="w-[304px] md:w-[211px]">
           <img class="w-full" src=`img-logo.png` alt="Logo" />
         </figure>
@@ -127,7 +132,7 @@ const { title } = Astro.props;
 </html>
 
 <style is:global>
-  @import "../_astro.css";
+  @import '../_astro.css';
   :root {
     --accent: 124, 58, 237;
     --accent-gradient: linear-gradient(
@@ -142,8 +147,15 @@ const { title } = Astro.props;
     background-color: #f6f6f6;
   }
   code {
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      Liberation Mono,
+      DejaVu Sans Mono,
+      Bitstream Vera Sans Mono,
+      Courier New,
+      monospace;
   }
 
   .nav-icon3 .nav-icon3.open {

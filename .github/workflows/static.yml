@@ -39,7 +39,7 @@ jobs:
     needs: build
     environment:
       name: github-pages
-      url: https://kpale29.github.io/
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       # - name: Checkout

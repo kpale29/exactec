@@ -34,38 +34,22 @@ const { title } = Astro.props;
           <div class="hidden lg:block">
             <ul class="flex list-none p-0">
               <li class="me-[45px]">
-                <a class="decoration-none text-inherit" href="/"
-                  >Inicio</a
-                >
+                <a class="decoration-none text-inherit" href="/">Inicio</a>
               </li>
               <li class="me-[45px]">
-                <a
-                  class="decoration-none text-inherit"
-                  href="/productos">Productos</a
-                >
+                <a class="decoration-none text-inherit" href="/productos">Productos</a>
               </li>
               <li class="me-[45px]">
-                <a
-                  class="decoration-none text-inherit"
-                  href="/servicios">Servicios</a
-                >
+                <a class="decoration-none text-inherit" href="/servicios">Servicios</a>
               </li>
               <li class="me-[45px]">
-                <a class="decoration-none text-inherit" href="/contacto"
-                  >Contáctenos</a
-                >
+                <a class="decoration-none text-inherit" href="/contacto">Contáctenos</a>
               </li>
             </ul>
           </div>
 
-          <div
-            class="hidden lg:block rounded-2xl border relative flex px-[10px]"
-          >
-            <input
-              class="focus:outline-none"
-              type="text"
-              placeholder="Buscar producto"
-            />
+          <div class="hidden lg:block rounded-2xl border relative flex px-[10px]">
+            <input class="focus:outline-none" type="text" placeholder="Buscar producto" />
             <i class="material-icons icon">search</i>
           </div>
 
@@ -135,30 +119,8 @@ const { title } = Astro.props;
   @import '../_astro.css';
   :root {
     --accent: 124, 58, 237;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      #da62c4 30%,
-      white 60%
-    );
-    
+    --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
   }
-  html {
-    font-family: system-ui, sans-serif;
-    background-color: #f6f6f6;
-  }
-  code {
-    font-family:
-      Menlo,
-      Monaco,
-      Lucida Console,
-      Liberation Mono,
-      DejaVu Sans Mono,
-      Bitstream Vera Sans Mono,
-      Courier New,
-      monospace;
-  }
-
   .nav-icon3 .nav-icon3.open {
     -webkit-tap-highlight-color: transparent;
   }

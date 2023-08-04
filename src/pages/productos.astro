@@ -10,17 +10,20 @@ import products from '../../public/productos.json';
 			<h1 class="lg:text-5xl text-2xl md:text-5xl">Productos</h1>
 			<p class="my-5 text-justify md:px-20 md:text-center">Sabemos que ser exactos y precisos es importante, por eso le ayudamos a contar con tecnología de vanguardia.</p>
 		</header>
-		<div class="md:flex md:mx-20 md:justify-between">
-		<div class="hidden md:block md:w-60">
-			<lu class="list-none [&>li]:py-1">
-				<li><div class="border-b border-black py-2">Equipo para laboratorio</div></li>	
-				<div class="border-b border-black py-2">Equipo industrial</div></li>	
-				<div class="border-b border-black py-2">Microscopios / estereosmicroscopios</div></li>	
-				<div class="border-b border-black py-2">Pesas patrón</div></li>	
-				<div class="border-b border-black py-2">Indicadores de peso</div></li>	
-				<div class="border-b border-black py-2">Cristalería para laboratorio</div></li>	
-				<div class="border-b border-black py-2">Accesorios</div></li>	
-			</lu>
+		<div class="md:flex md:mx-20 md:justify-between lg:mx-52">
+		
+		<div class="md:w-60">
+			<div class="hidden md:block md:w-52">
+				<lu class="list-none [&>li]:py-1">
+					<li><div class="border-b border-black py-2">Equipo para laboratorio</div></li>	
+					<div class="border-b border-black py-2">Equipo industrial</div></li>	
+					<div class="border-b border-black py-2">Microscopios / estereosmicroscopios</div></li>	
+					<div class="border-b border-black py-2">Pesas patrón</div></li>	
+					<div class="border-b border-black py-2">Indicadores de peso</div></li>	
+					<div class="border-b border-black py-2">Cristalería para laboratorio</div></li>	
+					<div class="border-b border-black py-2">Accesorios</div></li>	
+				</lu>
+			</div>
 		</div>
 
 		<div class="md:hidden appearance-none overflow-hidden border flex px-4" >
@@ -35,7 +38,7 @@ import products from '../../public/productos.json';
 			</select>
 			<img class="w-4 " src=`/vector-10.svg` alt="arrow" />
 		</div>
-		<div class="">
+		<div class="md:w-[413px] lg:w-full lg:pl-20">
 		{products.map(product =>(
 			<CardProduct img={product.img} name={product.name} description={product.description}/>
 			))}

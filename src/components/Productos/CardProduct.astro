@@ -1,0 +1,17 @@
+---
+const { img, name, description } = Astro.props;
+---
+
+<section class="py-9">
+  <div class="w-full flex justify-center">
+    <figure class="border border-black max-w-xs">
+      <img class="" src={img} alt="Tecnología de vanguardia"/>
+    </figure>
+  </div>
+  <div class="pt-5">
+    <p class="bold text-xl">{name}</p>
+    <p>
+      {description}
+    </p>
+  </div>
+</section>

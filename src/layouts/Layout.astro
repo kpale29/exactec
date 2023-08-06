@@ -19,50 +19,37 @@ const { title } = Astro.props;
   <body>
     <header>
       <script>
-        document.querySelector(".nav-icon3").addEventListener("click", () => {
-          document.querySelector(".nav-icon3").classList.toggle("open");
+        document.querySelector('.nav-icon3').addEventListener('click', () => {
+          document.querySelector('.nav-icon3').classList.toggle('open');
         });
       </script>
       <nav
-        class="shadow-md min-w-[375px] w-full h-28 flex justify-between items-center px-[35px] md:px-[81px] bg-secondary-bg"
+        class="drop-shadow-md min-w-[375px] w-full h-28 flex justify-between items-center px-[35px] md:px-[81px] bg-secondary-bg"
       >
         <figure class="w-[113px]">
-          <img class="w-full" src=`logo.png` alt="Logo" />
+          <img class="w-full" src=`/logo.png` alt="Logo" />
         </figure>
 
         <div class="flex justify-center items-center">
           <div class="hidden lg:block">
             <ul class="flex list-none p-0">
               <li class="me-[45px]">
-                <a class="decoration-none text-inherit" href="/exactec/"
-                  >Inicio</a
-                >
+                <a class="decoration-none text-inherit" href="/">Inicio</a>
               </li>
               <li class="me-[45px]">
-                <a
-                  class="decoration-none text-inherit"
-                  href="/exactec/productos">Productos</a
-                >
+                <a class="decoration-none text-inherit" href="/productos">Productos</a>
               </li>
               <li class="me-[45px]">
-                <a class="decoration-none text-inherit" href="/exactec/servicios"
-                  >Servicios</a
-                >
+                <a class="decoration-none text-inherit" href="/servicios">Servicios</a>
               </li>
               <li class="me-[45px]">
-                <a class="decoration-none text-inherit" href="/exactec/contacto"
-                  >Contáctenos</a
-                >
+                <a class="decoration-none text-inherit" href="/contacto">Contáctenos</a>
               </li>
             </ul>
           </div>
 
           <div class="hidden lg:block rounded-2xl border relative flex px-[10px]">
-            <input
-              class="focus:outline-none"
-              type="text"
-              placeholder="Buscar producto"
-            />
+            <input class="focus:outline-none" type="text" placeholder="Buscar producto" />
             <i class="material-icons icon">search</i>
           </div>
 
@@ -90,16 +77,18 @@ const { title } = Astro.props;
 
     <slot />
 
-    <footer class="h-[595px] w-full md:h-[355px]">
-      <div class="flex flex-col md:px-[90px] px-9 py-12 justify-between md:justify-items-center md:items-center bg-primary-bg h-full w-full md:grid md:grid-cols-3 md:gap-3">
+    <footer class="h-[595px] w-full md:h-[355px] bg-primary-bg">
+      <div
+        class="flex flex-col md:px-[90px] px-9 py-12 justify-between md:justify-items-center md:items-center bg-primary-bg h-full w-full md:grid md:grid-cols-3 md:gap-3"
+      >
         <figure class="w-[304px] md:w-[211px]">
-          <img class="w-full" src=`img-logo.png` alt="Logo" />
+          <img class="w-full" src=`/img-logo.png` alt="Logo" />
         </figure>
 
         <ul class="[&>li]:mb-1">
-          <li><a href="/exactec/productos"> Productos</a></li>
-          <li><a href="/exactec/servicios"> Servicios</a></li>
-          <li><a href="/exactec/contacto"> Contáctenos</a></li>
+          <li><a href="/productos"> Productos</a></li>
+          <li><a href="/servicios"> Servicios</a></li>
+          <li><a href="/contacto"> Contáctenos</a></li>
         </ul>
 
         <ul class="[&>li]:mb-1">
@@ -107,13 +96,13 @@ const { title } = Astro.props;
 
           <li class="flex">
             <figure class="w-[27px] me-[10px]">
-              <img class="w-full" src=`icono-mail.svg` alt="Logo" />
+              <img class="w-full" src=`/icono-mail.svg` alt="Logo" />
             </figure><p>info@exactec.com.gt</p>
           </li>
 
           <li class="flex">
             <figure class="w-[27px] me-[10px]">
-              <img class="w-full" src=`icono-tel.svg` alt="Logo" />
+              <img class="w-full" src=`/icono-tel.svg` alt="Logo" />
             </figure><p>(+502) 5755 - 8774</p>
           </li>
         </ul>
@@ -127,25 +116,11 @@ const { title } = Astro.props;
 </html>
 
 <style is:global>
-  @import "../_astro.css";
+  @import '../_astro.css';
   :root {
     --accent: 124, 58, 237;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      #da62c4 30%,
-      white 60%
-    );
+    --accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
   }
-  html {
-    font-family: system-ui, sans-serif;
-    background-color: #f6f6f6;
-  }
-  code {
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-  }
-
   .nav-icon3 .nav-icon3.open {
     -webkit-tap-highlight-color: transparent;
   }

@@ -1,0 +1,49 @@
+[
+    {
+        "img" : "/assets/img-microscopio1.png",
+        "name" : "Microscopios",
+        "description" : "Instrumentos diseñados para laboratorio de cursos educativos, trabajo rutinario, veterinaria, laboratorios de investigación, para ver muestras con una fuente de luz; se incluyen microscopios compuestos, de infrarrojos, simples y estereoscópicos, así como lámparas y accesorios (microscopios con cámaras con software incluido).",
+        "category" : "Microscopios / estereosmicroscopios"
+    },
+    {
+        "img" : "/assets/img-microscopio2.png",
+        "name" : "Estereosmicroscopios",
+        "description" : "Los microscopios estereoscópicos están construidos por medio de dos oculares a través de los cuales se ve la muestra; utilizados para examinar muestras opacas y macroscópicas (esteromicroscopios con cámaras de microscopía con software incluido).",
+        "category" : "Microscopios / estereosmicroscopios"
+
+    },
+    {
+        "img" : "/assets/img-balanza1.png",
+        "name" : "Balanzas analíticas        ",
+        "description" : "EXPLORER ANALÍTICA - OHAUS EXPLORER DE PRECISIÓN CON CABINA - OHAUS ADVENTURER ANALÍTICA - OHAUS ADVENTURER DE PRECISIÓN CON CABINA - OHAUS PIONEER PX ANALÍTICA - OHAUS PIONEER PR ANALÍTICA - OHAUS PIONEER PR CON CABINA - OHAUS",
+        "category" : "Equipo para laboratorio"
+    },
+    {
+        "img" : "/assets/img-balanza2.png",
+        "name" : "Balanzas semi-micro analíticas",
+        "description" : "EXPLORER SEMI-MICRO ANALÍTICA - OHAUS PIONEER PX SEMI-MICRO ANALÍTICA - OHAUS",
+        "category" : "Equipo para laboratorio"
+
+    },
+    {
+        "img" : "/assets/img-balanza3.png",
+        "name" : "Balanzas de precisión",
+        "description" : "EXPLORER DE PRECISIÓN - OHAUS EXPLORER DE PRECISIÓN ALTA CAPACIDAD - OHAUS ADVENTURER DE PRECISIÓN - OHAUS PIONEER PX DE PRECISIÓN - OHAUS PIONEER PR DE PRECISIÓN - OHAUS",
+        "category" : "Equipo para laboratorio"
+
+    },
+    {
+        "img" : "/assets/img-balanza4.png",
+        "name" : "Balanzas portátiles",
+        "description" : "SCOUT SPX • PANTALLA LCD - OHAUS SCOUT STX • PANTALLA TOUCH - OHAUS NAVIGATOR - OHAUS SERIE CX - OHAUS SERIE CR - OHAUS SERIE YS - OHAUS",
+        "category" : "Equipo para laboratorio"
+
+    },
+    {
+        "img" : "/assets/img-balanza5.png",
+        "name" : "Analizadores de humedad",
+        "description" : "ANALIZADORES DE HUMEDAD - OHAUS",
+        "category" : "Equipo para laboratorio"
+
+    }
+]

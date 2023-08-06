@@ -1,53 +1,19 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import ServiciosList from "../components/Servicios/ServiciosList.astro";
+import ServiciosMaintenance from "../components/Servicios/ServiciosMaintenance.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <main>
-    <section class="h-[1621px] px-[35px] py-[82px]">
-      <header>
-        <h2 class="text-2xl">Servicios</h2>
-        <p>Dentro de nuestra amplia gama de servicios brindamos:</p>
-      </header>
-      <footer>
-        <ul class="[&>li]:flex [&>li]:gap-x-3 [&>li]:items-start">
-          <li>
-            <img class="w-[11px]" src="Ellipse.svg" alt="Ellipse" /><span>
-              Venta y asesoría técnica especializada para instalación de equipos
-              de laboratorios en general</span
-            >
-          </li>
-          <li>
-            <img class="w-[11px]" src="Ellipse.svg" alt="Ellipse" /><span>
-              Suministros, repuestos, calidad y garantía asegurada</span>
-          </li>
-          <li>
-            <img class="w-[11px]" src="Ellipse.svg" alt="Ellipse" /><span>
-              Capacitaciones sobre uso adecuado de equipos</span>
-          </li>
-          <li>
-            <img class="w-[11px]" src="Ellipse.svg" alt="Ellipse" /><span>
-              Soporte técnico a diversas industrias, tipos y marcas de equipo e
-              instrumentación de medición</span
-            >
-          </li>
-          <li>
-            <img class="w-[11px]" src="Ellipse.svg" alt="Ellipse" /><span>
-              Ajuste o calibración para equipos de pesaje con pesas patrón
-              certificadas</span
-            >
-          </li>
-          <li>
-            <img class="w-[11px]" src="Ellipse.svg" alt="Ellipse" /><span>
-              Calibración de pesas patrón individuales o set de pesas patrón</span
-            >
-          </li>
-          <li>
-            <img class="w-[11px]" src="Ellipse.svg" alt="Ellipse" /><span>
-              Reparación de equipos de pesaje, indicadores, etc</span>
-          </li>
-        </ul>
-      </footer>
+  <main class="md:grid md:grid-cols-2 bg-secondary-bg lg:grid-rows-2">
+    <ServiciosList/>
+
+    <section class="pt-8 md:pt-[82px] md:mr-20 lg:row-span-2">
+      <figure class="flex justify-center">
+        <img class="w-[305px] md:w-[328px] lg:w-[400px]" src=`/assets/img-servicios.png` alt="Logo" />
+      </figure>
     </section>
+
+    <ServiciosMaintenance/>
   </main>
 </Layout>

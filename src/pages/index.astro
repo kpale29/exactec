@@ -3,15 +3,15 @@ import Layout from '../layouts/Layout.astro';
 import Welcome from '../components/Welcome.astro';
 import Services from '../components/Services.astro';
 import InfoProducts from '../components/InfoProducts.astro';
-import Carousel from '../components/carousel/Carousel.astro';
 
 let items = ['1', '2', '3'];
 import MisionVision from '../components/MisionVision.astro';
+import CarouselView from '../components/carousel/Carousel';
 ---
 
 <Layout title="Inicio">
   <section class="flex flex-col items-center justify-center bg-[#FFF]">
-    <Carousel />
+    <CarouselView client:load />
     <Welcome />
     <Services />
     <InfoProducts />

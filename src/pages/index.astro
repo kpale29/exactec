@@ -7,14 +7,25 @@ import InfoProducts from '../components/InfoProducts.astro';
 let items = ['1', '2', '3'];
 import MisionVision from '../components/MisionVision.astro';
 import CarouselView from '../components/carousel/Carousel';
+import ViewBestBrands from '../components/BestBrands/BestBrands';
+import BestBrands from '../components/BestBrands.astro';
+
+
 ---
 
-<Layout title="Inicio">
+<Layout title="ExacTec - Inicio">
   <section class="flex flex-col items-center justify-center bg-[#FFF]">
     <CarouselView client:load />
     <Welcome />
     <Services />
     <InfoProducts />
     <MisionVision />
+
+    <span class="hidden md:block xl:block">
+      <ViewBestBrands client:load/>
+    </span>
+    <span class="block md:hidden xl:hidden">
+      <BestBrands />
+    </span>
   </section>
 </Layout>

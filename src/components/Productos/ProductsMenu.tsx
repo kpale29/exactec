@@ -24,7 +24,7 @@ export default function PaginatorView() {
               <li key={category.id} className="mb-5 border-b border-black pb-2">
                 <a
                   onClick={() => selectCategory(category.id - 1)}
-                  className={`${category.active ? 'active-item' : ''}`}
+                  className={`cursor-pointer ${category.active ? 'active-item' : ''}`}
                 >
                   {category.name}
                 </a>

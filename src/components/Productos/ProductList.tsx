@@ -1,10 +1,13 @@
 import CardProduct from './CardProduct';
 import products from '../../../public/productos.json';
 
-export default function ProductList() {
+export default function ProductList({ filterId }) {
+  const productsList = products.products.filter(
+    (product) => product.category == filterId
+  );
   return (
     <div>
-      {products.products.map((product) => (
+      {productsList.map((product) => (
         <CardProduct
           img={product.img}
           name={product.name}

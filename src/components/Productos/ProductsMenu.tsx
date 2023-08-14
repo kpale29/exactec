@@ -2,7 +2,7 @@ import './css/ProductsMenu.css';
 import products from '../../../public/productos.json';
 import { useState } from 'react';
 
-export default function PaginatorView() {
+export default function ProductsMenu({ onDataChange }) {
   const [_, setValue] = useState(1);
   const selectCategory = (id) => {
     categories.forEach((element) => {
@@ -11,6 +11,7 @@ export default function PaginatorView() {
 
     categories[id].active = true;
     setValue(categories[id].id);
+    onDataChange(categories[id].id);
   };
 
   const categories = products.categories;
@@ -18,7 +19,7 @@ export default function PaginatorView() {
   return (
     <section>
       <div>
-        <div className="mr-[48.3696px] hidden md:block md:w-52">
+        <div className="mr-[3.0231rem] hidden md:block md:w-52">
           <ul className="list-none">
             {categories.map((category) => (
               <li key={category.id} className="mb-5 border-b border-black pb-2">

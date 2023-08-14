@@ -1,6 +1,6 @@
 export default function CardProduct({ img, name, description, items }) {
   return (
-    <section className="pb-16 lg:flex">
+    <div className="pb-16 lg:flex lg:justify-center">
       <div className="flex w-full justify-center border border-black lg:w-auto lg:flex-none ">
         <figure>
           <img className="" src={img} alt="Tecnología de vanguardia" />
@@ -20,6 +20,6 @@ export default function CardProduct({ img, name, description, items }) {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 }

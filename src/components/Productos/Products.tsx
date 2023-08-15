@@ -3,7 +3,7 @@ import ProductList from '../../components/Productos/ProductList';
 import { useState } from 'react';
 
 export default function Products() {
-  const [filter, setData] = useState('');
+  const [filter, setData] = useState(1);
 
   const handleDataChange = (newData) => {
     setData(newData);

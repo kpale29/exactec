@@ -16,6 +16,11 @@ export default function ProductsMenu({ onDataChange }) {
 
   const categories = products.categories;
 
+  const handleSelectChange = (event) => {
+    const selectedId = parseInt(event.target.value);
+    selectCategory(selectedId - 1);
+  };
+
   return (
     <section>
       <div>
@@ -36,9 +41,14 @@ export default function ProductsMenu({ onDataChange }) {
       </div>
 
       <div className="mb-4 flex appearance-none overflow-hidden border px-4 md:hidden">
-        <select className="h-10 w-full appearance-none border-0 text-sm">
+        <select
+          className="h-10 w-full appearance-none border-0 text-sm"
+          onChange={handleSelectChange}
+        >
           {categories.map((category) => (
-            <option key={category.id}>{category.name}</option>
+            <option key={category.id} value={category.id}>
+              {category.name}
+            </option>
           ))}
         </select>
         <img className="w-4" src="/vector-10.svg" alt="arrow" />

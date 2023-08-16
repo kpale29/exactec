@@ -23,7 +23,11 @@ const { title } = Astro.props;
         const navLinks = nav.querySelectorAll('a');
         const currentURL = window.location.href;
         navLinks.forEach((link) => {
+          console.log('afuera: link:', link.href)
+          console.log('afuera: currentURL:', currentURL)
           if (link.href === currentURL) {
+            console.log('ingrese: lienk:', link.href)
+            console.log('ingrese: currentURL:', currentURL)
             link.classList.add('active');
           }
         });

@@ -1,49 +1,454 @@
-[
-    {
-        "img" : "/assets/img-microscopio1.png",
-        "name" : "Microscopios",
-        "description" : "Instrumentos diseñados para laboratorio de cursos educativos, trabajo rutinario, veterinaria, laboratorios de investigación, para ver muestras con una fuente de luz; se incluyen microscopios compuestos, de infrarrojos, simples y estereoscópicos, así como lámparas y accesorios (microscopios con cámaras con software incluido).",
-        "category" : "Microscopios / estereosmicroscopios"
-    },
-    {
-        "img" : "/assets/img-microscopio2.png",
-        "name" : "Estereosmicroscopios",
-        "description" : "Los microscopios estereoscópicos están construidos por medio de dos oculares a través de los cuales se ve la muestra; utilizados para examinar muestras opacas y macroscópicas (esteromicroscopios con cámaras de microscopía con software incluido).",
-        "category" : "Microscopios / estereosmicroscopios"
-
-    },
-    {
-        "img" : "/assets/img-balanza1.png",
-        "name" : "Balanzas analíticas        ",
-        "description" : "EXPLORER ANALÍTICA - OHAUS EXPLORER DE PRECISIÓN CON CABINA - OHAUS ADVENTURER ANALÍTICA - OHAUS ADVENTURER DE PRECISIÓN CON CABINA - OHAUS PIONEER PX ANALÍTICA - OHAUS PIONEER PR ANALÍTICA - OHAUS PIONEER PR CON CABINA - OHAUS",
-        "category" : "Equipo para laboratorio"
-    },
-    {
-        "img" : "/assets/img-balanza2.png",
-        "name" : "Balanzas semi-micro analíticas",
-        "description" : "EXPLORER SEMI-MICRO ANALÍTICA - OHAUS PIONEER PX SEMI-MICRO ANALÍTICA - OHAUS",
-        "category" : "Equipo para laboratorio"
-
-    },
-    {
-        "img" : "/assets/img-balanza3.png",
-        "name" : "Balanzas de precisión",
-        "description" : "EXPLORER DE PRECISIÓN - OHAUS EXPLORER DE PRECISIÓN ALTA CAPACIDAD - OHAUS ADVENTURER DE PRECISIÓN - OHAUS PIONEER PX DE PRECISIÓN - OHAUS PIONEER PR DE PRECISIÓN - OHAUS",
-        "category" : "Equipo para laboratorio"
-
-    },
-    {
-        "img" : "/assets/img-balanza4.png",
-        "name" : "Balanzas portátiles",
-        "description" : "SCOUT SPX • PANTALLA LCD - OHAUS SCOUT STX • PANTALLA TOUCH - OHAUS NAVIGATOR - OHAUS SERIE CX - OHAUS SERIE CR - OHAUS SERIE YS - OHAUS",
-        "category" : "Equipo para laboratorio"
-
-    },
-    {
-        "img" : "/assets/img-balanza5.png",
-        "name" : "Analizadores de humedad",
-        "description" : "ANALIZADORES DE HUMEDAD - OHAUS",
-        "category" : "Equipo para laboratorio"
-
-    }
-]
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Equipo para laboratorio",
+            "active": true
+        },
+        {
+            "id": 2,
+            "name": "Equipo industrial",
+            "active": false
+        },
+        {
+            "id": 3,
+            "name": "Microscopios / estereosmicroscopios",
+            "active": false
+        },
+        {
+            "id": 4,
+            "name": "Pesas patrón",
+            "active": false
+        },
+        {
+            "id": 5,
+            "name": "Indicadores de peso",
+            "active": false
+        },
+        {
+            "id": 6,
+            "name": "Cristalería para laboratorio",
+            "active": false
+        },
+        {
+            "id": 7,
+            "name": "Accesorios",
+            "active": false
+        }
+    ],
+    "products": [
+        {
+            "img": "/assets/img-balanza1.png",
+            "name": "Balanzas analíticas        ",
+            "description": "",
+            "items": [
+                "EXPLORER ANALÍTICA - OHAUS",
+                "EXPLORER DE PRECISIÓN CON CABINA - OHAUS",
+                "ADVENTURER ANALÍTICA - OHAUS",
+                "ADVENTURER DE PRECISIÓN CON CABINA - OHAUS",
+                "PIONEER PX ANALÍTICA - OHAUS",
+                "PIONEER PR ANALÍTICA - OHAUS",
+                "PIONEER PR CON CABINA - OHAUS"
+            ],
+            "category": 1
+        },
+        {
+            "img": "/assets/img-balanza2.png",
+            "name": "Balanzas semi-micro analíticas",
+            "description": " ",
+            "items": [
+                "EXPLORER SEMI-MICRO ANALÍTICA - OHAUS",
+                "PIONEER PX SEMI-MICRO ANALÍTICA - OHAUS"
+            ],
+            "category": 1
+        },
+        {
+            "img": "/assets/img-balanza3.png",
+            "name": "Balanzas de precisión",
+            "description": "",
+            "items": [
+                "EXPLORER DE PRECISIÓN - OHAUS",
+                "EXPLORER DE PRECISIÓN ALTA CAPACIDAD - OHAUS",
+                "ADVENTURER DE PRECISIÓN - OHAUS",
+                "PIONEER PX DE PRECISIÓN - OHAUS",
+                "PIONEER PR DE PRECISIÓN - OHAUS"
+            ],
+            "category": 1
+        },
+        {
+            "img": "/assets/img-balanza4.png",
+            "name": "Balanzas portátiles",
+            "description": "",
+            "items": [
+                "SCOUT SPX • PANTALLA LCD - OHAUS",
+                "SCOUT STX • PANTALLA TOUCH - OHAUS",
+                "NAVIGATOR - OHAUS",
+                "SERIE CX - OHAUSS",
+                "SERIE CR - OHAUS",
+                "SERIE YS - OHAUS"
+            ],
+            "category": 1
+        },
+        {
+            "img": "/assets/img-balanza5.png",
+            "name": "Analizadores de humedad",
+            "description": "",
+            "items": [
+                "ANALIZADORES DE HUMEDAD - OHAUS"
+            ],
+            "category": 1
+        },
+        {
+            "img": "/assets/img-balanza5.png",
+            "name": "Celdas de Carga",
+            "description": "Características:",
+            "items": [
+                "Capacidad: 20 kg / 30 kg / 50 kg / 100kg / 200 kg / 500 kg / 1000 kg / 2000 kg",
+                "Aleación de Aluminio / Acero Inoxidable / Acero Niquelado IP67",
+                "Tornillos nivelantes individuales o Kit completo (4 tornillos nivelantes)",
+                "Cable 4 – 4+1 cable blindado",
+                "Cable 6 – 6+1 cable blindado"
+            ],
+            "category": 2
+        },
+        {
+            "img": "/assets/img-balanza5.png",
+            "name": "Básculas de Plataforma - OHAUS",
+            "description": "Capacidad:",
+            "items": [
+                "125 kg x 0.005 kg (46cm x 46cm)",
+                "150 kg x 0.02 kg (40cm x 50cm / 42cm x 55cm / 50cm x 60cm / 50cm x 65cm)",
+                "300 kg x 0.05 kg (50cm x 60cm / 50cm x 65cm / 60cm x 80cm)",
+                "500 kg x 0.02 kg (61cm x 61cm / 61cm x 80cm",
+                "600 kg x 0.1 kg (60cm x 80cm)",
+                "Ambiente Seco / Lavable ",
+                "Indicador Plástico / Acero Inoxidable"
+            ],
+            "category": 2
+        },
+        {
+            "img": "/assets/img-balanza5.png",
+            "name": "Básculas de Plataforma - HiWeigh",
+            "description": "Capacidad:",
+            "items": [
+                "150 kg x 20 g",
+                "200 kg x 20 g",
+                "300 kg x 50 g",
+                "500 kg x 50 g",
+                "Ambiente Seco / Lavable",
+                "Indicador Plástico / Acero Inoxidable"
+            ],
+            "category": 2
+        },
+        {
+            "img": "/assets/img-balanza5.png",
+            "name": "Básculas de Plataforma 4x4 - HiWeigh",
+            "description": "Capacidad:",
+            "items": [
+                "1500 kg x 0.2 kg / 0.5kg",
+                "3000 kg x 0.5 kg / 1 kg",
+                "Tamaño Plataforma: 1m x 1m / 1.20m x 1.20m / 1.5m x 1.5m / 2m x 1.5m",
+                "Material: Hierro Normal - Acero Inoxidable",
+                "Ambiente Seco / Lavable",
+                "Indicador Plástico / Acero Inoxidable"
+            ],
+            "category": 2
+        },
+        {
+            "img": "/assets/img-balanza5.png",
+            "name": "Básculas de Plataforma 4x4 Defender3000 - OHAUS",
+            "description": "Capacidad:",
+            "items": [
+                "250 kg x 0.05 kg - 76cm x 76cm",
+                "500 kg x 0.1 kg - 76cm x 76cm",
+                "500 kg x 0.1 kg - 91cm x 91cm",
+                "1250 kg x 0.2 kg - 76cm x 76cm",
+                "1250 kg x 0.2 kg - 91cm x 91cm",
+                "Indicador Plástico / Acero Inoxidable",
+                "Lavable"
+            ],
+            "category": 2
+        },
+        {
+            "img": "/assets/img-balanza5.png",
+            "name": "Básculas de Plataforma 4x4 Serie VN - OHAUS",
+            "description": "Capacidad:",
+            "items": [
+                "2500 kg - 1.20m x 1.20m",
+                "2500 kg - 1.50m x 1.50m",
+                "Acero Pintado / Acero Inoxidable",
+                "Indicador Plástico / Acero Inoxidable"
+            ],
+            "category": 2
+        },
+        {
+            "img": "/assets/img-balanza5.png",
+            "name": "Básculas Small - ABS / Acero Inoxidable",
+            "description": "Capacidad:",
+            "items": [
+                "D24P30FR - 30 kg x 0.005 kg / 30cm x 35cm",
+                "D24P60FR - 60 kg x 0.01 kg / 30cm x 35cm",
+                "i-D33P30B1R1 - 30 kg x 0.005 kg / 31cm x 36cm",
+                "i-D33P75B1R1 - 75 kg x 0.01 kg - 0.005 kg / 31cm x 36cm",
+                "BBX - BSH:  6 kg / 15 kg / 30 kg",
+                "Precisión: 1 g / 2 g / 5 g"
+            ],
+            "category": 2
+        },
+        {
+            "img": "/assets/img-microscopio1.png",
+            "name": "Microscopios",
+            "description": "Instrumentos diseñados para laboratorio de cursos educativos, trabajo rutinario, veterinaria, laboratorios de investigación, para ver muestras con una fuente de luz; se incluyen microscopios compuestos, de infrarrojos, simples y estereoscópicos, así como lámparas y accesorios (microscopios con cámaras con software incluido).",
+            "items": [],
+            "category": 3
+        },
+        {
+            "img": "/assets/img-microscopio2.png",
+            "name": "Estereosmicroscopios",
+            "description": "Los microscopios estereoscópicos están construidos por medio de dos oculares a través de los cuales se ve la muestra; utilizados para examinar muestras opacas y macroscópicas (esteromicroscopios con cámaras de microscopía con software incluido).",
+            "items": [],
+            "category": 3
+        },
+        {
+            "img": "/assets/pesa-patron1.png",
+            "name": "Kit de pesas patrón",
+            "description": "",
+            "items": [
+                "Clase E2, F1, F2, M1, M2",
+                "Con certificado / Sin certificado",
+                "Rangos: 1 mg – 200 g 1 mg 500 g 1 mg – 5 kg 1 g - 2 kg",
+                "Material en acero inoxidable",
+                "Estuche: plástico / aluminio",
+                "Paño de limpieza",
+                "Pinzas no magnéticas"
+            ],
+            "category": 4
+        },
+        {
+            "img": "/assets/pesa-patron2.png",
+            "name": "Pesas patrón individuales",
+            "description": "",
+            "items": [
+                "Clase E2, F1, F2, M1, M2",
+                "Con certificado / Sin certificado",
+                "Rangos (individualmente): 1 mg – 200 g 500 g – 5 kg 10 kg – 20 kg 1000 kg - 2000 kg",
+                "Material en acero inoxidable / Hierro fundido",
+                "Estuche: plástico / aluminio / caja cartón"
+            ],
+            "category": 4
+        },
+        {
+            "img": "/assets/img-indicador1.png",
+            "name": "Indicadores en plástico ABS",
+            "description": "",
+            "items": [
+                "Carcasa sólida de ABS",
+                "Pantalla LED",
+                "Batería recargable",
+                "Unidades de medida: kg,  (Intercambiable)",
+                "RS232"
+            ],
+            "category": 5
+        },
+        {
+            "img": "/assets/img-indicador2.png",
+            "name": "Indicador Defender2000",
+            "description": "",
+            "items": [
+                "Resolución: 20,000d",
+                "Construido en Plástico ABS",
+                "Pantalla LED",
+                "Batería Recargable",
+                "Unidades de medida: Kilogramo; Gramo; Libra"
+            ],
+            "category": 5
+        },
+        {
+            "img": "/assets/img-indicador3.png",
+            "name": "Indicador Defender3000",
+            "description": "",
+            "items": [
+                "Resolución: 30,000d",
+                " Construido en Plástico ABS",
+                "Pantalla LCD Multicolor",
+                "Alimentación 120VAC",
+                "RS232",
+                "Unidades de medida: Toneladas métricas; Gramo; Kilogramo; Libra; Onza; Libra: onza"
+            ],
+            "category": 5
+        },
+        {
+            "img": "/assets/img-indicador4.png",
+            "name": "Indicador Defender5000",
+            "description": "",
+            "items": [
+                "Resolución: 75,000d",
+                "Construido en Plástico ABS",
+                "Pantalla LCD de Matriz de Puntos",
+                "RS232",
+                "Unidades de medida: Personalizado; Gramo; Kilogramo; Toneladas métricas; Onza; Libra; Libra: onza; Tonelada"
+            ],
+            "category": 5
+        },
+        {
+            "img": "/assets/img-indicador5.png",
+            "name": "Indicador Defender6000",
+            "description": "",
+            "items": [
+                "Resolución: 75,000d",
+                "Carcasa de Policarbonato",
+                "Pantalla LCD",
+                "IP69k; IP68",
+                "RS232",
+                "Unidades de medida: Toneladas métricas; Gramo; Kilogramo; Libra; Onza; Libra: onza"
+            ],
+            "category": 5
+        },
+        {
+            "img": "/assets/img-indicador6.png",
+            "name": "Indicadores en Acero Inoxidable",
+            "description": "",
+            "items": [
+                "Carcaza de Acero Inoxidable IP65",
+                "Soporte de Acero Inoxidable",
+                "Batería recargable",
+                "Unidades de medida: kg, g, lb, oz. (Intercambiable)",
+                "RS232"
+            ],
+            "category": 5
+        },
+        {
+            "img": "/assets/img-indicador7.png",
+            "name": "Indicador Defender3000",
+            "description": "",
+            "items": [
+                "Resolución: 30.000",
+                "Construido en Acero inoxidable",
+                "Pantalla LCD Multicolor",
+                "Protección IP66",
+                "RS232",
+                "Unidades de medida: Toneladas métricas; Gramo; Kilogramo; Libra; Onza; Libra: onza"
+            ],
+            "category": 5
+        },
+        {
+            "img": "/assets/img-indicador8.png",
+            "name": "Indicador Defender5000",
+            "description": "",
+            "items": [
+                "Resolución: 75,000d",
+                "Construido en Acero Inoxidable",
+                "Pantalla LCD de Matriz de Puntos",
+                "Protección IP68",
+                "RS232",
+                "Unidades de medida: Personalizado; Gramo; Kilogramo; Toneladas métricas; Onza; Libra; Libra: onza; Tonelada"
+            ],
+            "category": 5
+        },
+        {
+            "img": "/assets/img-indicador9.png",
+            "name": "Indicador Defender6000",
+            "description": "",
+            "items": [
+                "Resolución: 75,000d",
+                "Construido en Acero Inoxidable",
+                "Pantalla LCD",
+                "Protección IP69k; IP68",
+                "RS232",
+                "Unidades de medida: Gramo; Kilogramo; Libra; Onza; Libra: onza"
+            ],
+            "category": 5
+        },
+        {
+            "img": "/assets/img-indicador10.png",
+            "name": "Indicador Defender7000",
+            "description": "",
+            "items": [
+                "Resolución: 50,000d",
+                "Construido en Acero Inoxidable",
+                "Pantalla LCD iluminada",
+                "Protección IP66/IP67",
+                "RS232",
+                "Unidades de medida: Kilogramo; Libra; Onza; Libra: onza; Gramo; Toneladas métricas"
+            ],
+            "category": 5
+        },
+        {
+            "img": "/assets/img-cristaleria.png",
+            "name": "Cristalería – Insumos para Laboratorio",
+            "description": "Contamos con cristalería básica para laboratorios de todo tipo (plástico – vidrio).",
+            "items": [
+                "Embudos",
+                "Beaker",
+                "Termómetros",
+                "Pipetas",
+                "Buretas",
+                "Pisetas",
+                "Probetas",
+                "Pinzas",
+                "Cronómetros",
+                "Etc."
+            ],
+            "category": 6
+        },
+        {
+            "img": "/assets/img-accesorio1.png",
+            "name": "Adaptadores para equipos",
+            "description": "",
+            "items": [
+                "12V – 1A",
+                "12V – 2A",
+                "9V – 500mA",
+                "9V – 600mA",
+                "9V – 1A"
+            ],
+            "category": 7
+        },
+        {
+            "img": "/assets/img-accesorio2.png",
+            "name": "Impresora Matricial de Impacto - OHAUS",
+            "description": "",
+            "items": [
+                "Tipo de interfaz: RS232",
+                "Velocidad de impresión: 1.2 líneas por segundo",
+                "40 Columnas"
+            ],
+            "category": 7
+        },
+        {
+            "img": "/assets/img-accesorio3.png",
+            "name": "Impresora Térmica Compacta - Samsung",
+            "description": "",
+            "items": [
+                "Modelo: STP103",
+                "42 Columnas",
+                "Ancho: 23 cm",
+                "Altura: 16 cm"
+            ],
+            "category": 7
+        },
+        {
+            "img": "/assets/img-accesorio4.png",
+            "name": "Impresora de Transferencia Térmica - Zebra",
+            "description": "",
+            "items": [
+                "Modelo: GK420T",
+                "42 Columnas",
+                "USB, Ethernet"
+            ],
+            "category": 7
+        },
+        {
+            "img": "/assets/img-accesorio5.png",
+            "name": "Baterías Recargables",
+            "description": "",
+            "items": [
+                "Baterías para indicadores",
+                "6V 4.0Ah",
+                "6V 4.5Ah",
+                "DJW6-5.0 (6V5.0AH)"
+            ],
+            "category": 7
+        }
+    ]
+}

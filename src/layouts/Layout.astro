@@ -23,11 +23,7 @@ const { title } = Astro.props;
         const navLinks = nav.querySelectorAll('a');
         const currentURL = window.location.href;
         navLinks.forEach((link) => {
-          console.log('afuera: link:', link.href)
-          console.log('afuera: currentURL:', currentURL)
           if (link.href === currentURL) {
-            console.log('ingrese: lienk:', link.href)
-            console.log('ingrese: currentURL:', currentURL)
             link.classList.add('active');
           }
         });
@@ -53,13 +49,13 @@ const { title } = Astro.props;
                 <a class="decoration-none text-inherit" href="/">Inicio</a>
               </li>
               <li class="me-[45px]">
-                <a class="decoration-none text-inherit" href="/productos/">Productos</a>
+                <a class="decoration-none text-inherit" href="/productos">Productos</a>
               </li>
               <li class="me-[45px]">
-                <a class="decoration-none text-inherit" href="/servicios/">Servicios</a>
+                <a class="decoration-none text-inherit" href="/servicios">Servicios</a>
               </li>
               <li class="me-[45px]">
-                <a class="decoration-none text-inherit" href="/contacto/">Contáctenos</a>
+                <a class="decoration-none text-inherit" href="/contacto">Contáctenos</a>
               </li>
             </ul>
           </div>

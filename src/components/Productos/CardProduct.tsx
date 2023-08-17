@@ -1,10 +1,10 @@
 export default function CardProduct({ img, name, description, items }) {
   return (
-    <div className="pb-16 lg:flex lg:justify-between">
+    <div className="pb-16 lg:flex">
       <div className="flex w-full items-center justify-center border border-black lg:w-auto lg:flex-none">
         <figure>
           <img
-            className="w-[305px] max-w-[305px] md:w-[413px] md:max-w-[413px] lg:w-[314px] lg:max-w-[314px] "
+            className="w-[310px] max-w-[310px] lg:w-[314px] lg:max-w-[314px] "
             src={img}
             alt="Tecnología de vanguardia"
           />

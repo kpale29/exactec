@@ -10,7 +10,7 @@ export default function Products() {
   };
 
   return (
-    <div className="md:flex md:justify-between lg:mx-52">
+    <div className=" w-auto md:flex md:justify-evenly 2xl:m-auto 2xl:my-0 2xl:w-[1500px]">
       <Menu onDataChange={handleDataChange} />
       <ProductList filterId={filter} />
     </div>

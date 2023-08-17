@@ -22,11 +22,7 @@ const { title } = Astro.props;
         const nav = document.querySelector('.navbar');
         const navLinks = nav.querySelectorAll('a');
         const currentURL = window.location.href;
-        console.log(navLinks)
-        console.log(currentURL)
         navLinks.forEach((link) => {
-          console.log('dentro del for 1: ', link.href)
-          console.log('dentro del for 2: ', currentURL)
           if (link.href === currentURL) {
             link.classList.add('active');
           }
@@ -142,7 +138,6 @@ const { title } = Astro.props;
       <p class="">www.exactec.com.gt</p>
     </div>
   </footer>
-
 </html>
 
 <style is:global>

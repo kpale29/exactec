@@ -9,6 +9,7 @@ export default function ProductList({ filterId }) {
     <div>
       {productsList.map((product) => (
         <CardProduct
+          key={product.id}
           img={product.img}
           name={product.name}
           description={product.description}

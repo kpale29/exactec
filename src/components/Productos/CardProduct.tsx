@@ -1,16 +1,23 @@
 export default function CardProduct({ img, name, description, items }) {
   return (
-    <div className="pb-16 lg:flex lg:justify-center">
-      <div className="flex w-full justify-center border border-black lg:w-auto lg:flex-none ">
+    <div className="pb-16 lg:flex">
+      <div className="flex w-full items-center justify-center border border-black lg:w-auto lg:flex-none">
         <figure>
-          <img className="" src={img} alt="Tecnología de vanguardia" />
+          <img
+            className="w-[310px] max-w-[310px] lg:w-[314px] lg:max-w-[314px] "
+            src={img}
+            alt="Tecnología de vanguardia"
+          />
         </figure>
       </div>
       <div className="pt-5 lg:pl-5 lg:pt-0">
         <p className="bold text-xl">{name}</p>
         <p>{description}</p>
         {items.map((item) => (
-          <div className="flex flex-row items-center gap-[14px] md:flex-row xl:flex-row">
+          <div
+            key={item}
+            className="flex flex-row items-center gap-[14px] md:flex-row xl:flex-row"
+          >
             <img
               src="/assets/Ellipse.svg"
               alt=""

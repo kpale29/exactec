@@ -41,15 +41,14 @@
             "id": 1,
             "img": "/assets/img-balanza1.png",
             "name": "Balanzas analíticas",
-            "description": "",
+            "description": "Características:",
             "items": [
-                "EXPLORER ANALÍTICA - OHAUS",
-                "EXPLORER DE PRECISIÓN CON CABINA - OHAUS",
-                "ADVENTURER ANALÍTICA - OHAUS",
-                "ADVENTURER DE PRECISIÓN CON CABINA - OHAUS",
-                "PIONEER PX ANALÍTICA - OHAUS",
-                "PIONEER PR ANALÍTICA - OHAUS",
-                "PIONEER PR CON CABINA - OHAUS"
+                "Capacidad: 60 g / 82 g / 120 g / 220 g / 320 g / 420 g/ 520 g / 620 g / 1100 g",
+                "Precisión: 0.0001 g / 0.001 g ",
+                "Auto Calibración (Interna – Externa)",
+                "Auto Door",
+                "Protector contra corrientes de aire",
+                "Pantalla táctil"
             ],
             "category": 1
         },
@@ -57,10 +56,14 @@
             "id": 2,
             "img": "/assets/img-balanza2.png",
             "name": "Balanzas semi-micro analíticas",
-            "description": " ",
+            "description": "Características:",
             "items": [
-                "EXPLORER SEMI-MICRO ANALÍTICA - OHAUS",
-                "PIONEER PX SEMI-MICRO ANALÍTICA - OHAUS"
+                "Capacidad: 52 g / 82 g / 120 g / 220 g",
+                "Precisión: 0.00001 g / 0.0001 g",
+                "Auto Calibración (Interna – Externa)",
+                "Auto Door",
+                "Protector contra corrientes de aire",
+                "Pantalla táctil"
             ],
             "category": 1
         },
@@ -68,13 +71,14 @@
             "id": 3,
             "img": "/assets/img-balanza3.png",
             "name": "Balanzas de precisión",
-            "description": "",
+            "description": "Características:",
             "items": [
-                "EXPLORER DE PRECISIÓN - OHAUS",
-                "EXPLORER DE PRECISIÓN ALTA CAPACIDAD - OHAUS",
-                "ADVENTURER DE PRECISIÓN - OHAUS",
-                "PIONEER PX DE PRECISIÓN - OHAUS",
-                "PIONEER PR DE PRECISIÓN - OHAUS"
+                "Capacidad: 160 g / 320 g / 620 g / 1600 g / 2200 g / 4200 g / 6200 g / 10200 g / 12000 g / 24000 g / 35000 g",
+                "Precisión: 0.001 g / 0.01 g / 0.1 g",
+                "Auto Calibración (Interna – Externa)",
+                "Auto Door",
+                "Protector contra corrientes de aire",
+                "Pantalla táctil"
             ],
             "category": 1
         },
@@ -82,14 +86,12 @@
             "id": 4,
             "img": "/assets/img-balanza4.png",
             "name": "Balanzas portátiles",
-            "description": "",
+            "description": "Características:",
             "items": [
-                "SCOUT SPX • PANTALLA LCD - OHAUS",
-                "SCOUT STX • PANTALLA TOUCH - OHAUS",
-                "NAVIGATOR - OHAUS",
-                "SERIE CX - OHAUSS",
-                "SERIE CR - OHAUS",
-                "SERIE YS - OHAUS"
+                "Capacidad: 120 g / 220 g / 320 g / 420 g/ 600 g / 620 g / 1100 g / 2200 g / 4200 g / 6200 g / 10200 g / 22000 g",
+                "Precisión: 0.001 g / 0.01 g / 0.1 g / 1 g",
+                "Sistema de protección de sobrecarga integrado",
+                "Pantalla retroiluminada"
             ],
             "category": 1
         },
@@ -97,11 +99,14 @@
             "id": 5,
             "img": "/assets/img-balanza5.png",
             "name": "Analizadores de humedad",
-            "description": "",
+            "description": "Características:",
             "items": [
-                "OHAUS - MB120",
-                "OHAUS - MB90",
-                "OHAUS - MB27"
+                "Capacidad: 90 g / 120 g",
+                "Precisión: 0.001 g",
+                "Humedad: 0.01% / 0.05%",
+                "Rango Temperatura: 50°C a 160°C (+5°C) / 40°C a 200°C (+1°C) / 40°C a 230°C (+1°C)",
+                "Fuente de Calentamiento: Halógeno",
+                "Pantalla: Touch multicolor / LCD Iluminada"
             ],
             "category": 1
         },
@@ -109,14 +114,14 @@
             "id": 6,
             "img": "/assets/img-balanzamesa-300.png",
             "name": "Balanzas de mesa",
-            "description": "",
+            "description": "Características:",
             "items": [
-                "RANGER 3000 (PESAJE/CONTADORA) - OHAUS",
-                "VALOR7000 - OHAUS",
-                "VALOR4000 / VALOR2000 ACERO INOXIDABLE",
-                "VALOR4000 / VALOR2000 PLÁSTICO ABS",
-                "VALOR1000 - OHAUS",
-                "SUPER SS - ACERO INOXIDABLE"
+                "Capacidad: 1500 g / 3000 g / 6000 g / 15000 g / 30000 g",
+                "Precisión: 0.05 g / 0.1 g / 0.2 g / 0.5 g / 1 g / 2 g / 5 g",
+                "Pesaje / Contadora",
+                "Doble visor de lectura de peso",
+                "Construcción en plástico ABS / Acero inoxidable completamente",
+                "Pantalla retroiluminada"
             ],
             "category": 1
         },
@@ -124,10 +129,12 @@
             "id": 7,
             "img": "/assets/img-agitadores-7000.jpg",
             "name": "Agitadores de calentamiento y agitación",
-            "description": "",
+            "description": "Características:",
             "items": [
-                "Guardian 7000 - OHAUS",
-                "Guardian 5000 - OHAUS"
+                "Capacidad: 15 L / 18 L / 20 L",
+                "Función: Agitación / Calentamiento / Calentamiento y Agitación",
+                "Construcción de placa: Aluminio / Cerámica",
+                "Rango de Velocidad: 60 rpm – 1.600 rpm"
             ],
             "category": 1
         },
@@ -135,10 +142,11 @@
             "id": 8,
             "img": "/assets/img-buffer.jpg",
             "name": "Soluciones buffer pH",
-            "description": "",
+            "description": "Características:",
             "items": [
-                "Soluciones Buffer",
-                "Medidor de Mesa - Electrodos"
+                "Soluciones buffer: 4.01pH, 7.00pH, 10.00pH",
+                "Medidores de mesa (electrodos): Material del eje (electrodos): Acero Inoxidable, Plástico y Vidrio",
+                "Tipo de electrodo: conductividad, pH, ORP"
             ],
             "category": 1
         },
@@ -146,9 +154,14 @@
             "id": 9,
             "img": "/assets/img-balanzamesa-001.jpg",
             "name": "Básculas de mesa",
-            "description": "",
+            "description": "Características:",
             "items": [
-                "Básculas Small - ABS / Acero Inoxidable"
+                "Capacidad: 6 kg / 15 kg / 30 kg / 60 kg / 75 kg",
+                "Precisión: 1 g / 2 g / 0.005 kg / 0.01 kg",
+                "Tamaño plataforma: 30 cm x 35 cm / 31 cm x 36 cm",
+                "Indicadores: construcción en plástico ABS / Acero inoxidable",
+                "Plato de pesada: Acero Inoxidable normal / Full Acero Inoxidable",
+                "Pantalla retroiluminada"
             ],
             "category": 2
         },
@@ -156,13 +169,16 @@
             "id": 10,
             "img": "/assets/img-plataforma-001.jpg",
             "name": "Básculas de Plataforma",
-            "description": "",
+            "description": "Características:",
             "items": [
-                "Básculas de Plataforma - OHAUS",
-                "Básculas de Plataforma - HiWeigh",
-                "Básculas de Plataforma 4x4 - HiWeigh",
-                "Básculas de Plataforma 4x4 Defender3000 - OHAUS",
-                "Básculas de Plataforma 4x4 Serie VN - OHAUS"
+                "Capacidad: 125 kg / 150 kg / 200 kg / 300 kg / 500 kg / 600 kg / 1000 kg / 1500 kg / 2000 kg / 3000 kg",
+                "Precisión: 0.005 kg / 0.02 kg / 0.05 kg / 0.1 kg / 0.2 kg / 0.5 kg / 1 kg",
+                "Tamaño plataforma pequeña: 46 cm x 46 cm / 40 cm x 50 cm / 42 cm x 55 cm / 50 cm x 60 cm / 50 cm x 65 cm / 61 cm x 61 cm / 61 cm x 80 cm",
+                "Indicadores: construcción en plástico ABS / Acero inoxidable",
+                "Ambiente seco / lavable",
+                "Tamaño de plataforma 4x4: 1m x 1m / 1.20m x 1.20m / 1.5m x 1.5m / 2 m x 1.5 m",
+                "Material: Hierro normal – Acero Inoxidable",
+                "Pantalla retroiluminada / LCD / Táctil "
             ],
             "category": 2
         },
@@ -170,9 +186,13 @@
             "id": 11,
             "img": "/assets/img-celdas-001.jpg",
             "name": "Celdas de carga",
-            "description": "",
+            "description": "Características:",
             "items": [
-                "Celdas de carga"
+                "Capacidad: 20 kg / 30 kg / 50 kg / 100kg / 200 kg / 500 kg / 1000 kg / 2000 kg",
+                "Aleación de Aluminio / Acero Inoxidable / Acero Niquelado IP67",
+                "Tornillos nivelantes individuales o Kit completo (4 tornillos nivelantes)",
+                "Cable 4 – 4+1 cable blindado",
+                "Cable 6 – 6+1 cable blindado"
             ],
             "category": 2
         },

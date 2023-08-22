@@ -69,7 +69,7 @@ export default function ProductList() {
           Búsqueda Relacionada a: <span>{searchReadout}</span>
           </h1>
         </header>
-        <div className=" grid  grid-cols-2 2xl:m-auto  2xl:my-0">
+        <div className=" grid grid-cols-1 gap-3 lg:gap-1 lg:grid-cols-2 2xl:m-auto  2xl:my-0">
           {
             productsList.length > 0 ?
           productsList.map((product) => (

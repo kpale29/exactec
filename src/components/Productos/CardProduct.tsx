@@ -4,7 +4,7 @@ export default function CardProduct({ img, name, description, items }) {
       <div className="flex w-full items-center justify-center border border-black lg:w-auto lg:flex-none">
         <figure>
           <img
-            className="w-[310px] max-w-[310px] lg:w-[314px] lg:max-w-[314px] "
+            className="w-[210px] max-w-[310px] lg:w-[314px] lg:max-w-[314px] "
             src={img}
             alt="Tecnología de vanguardia"
           />

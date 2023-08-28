@@ -1,15 +1,11 @@
 ---
-import Whatsapp from '../components/Whatsapp.astro';
 import Layout from '../layouts/Layout.astro';
 
 import ContactForm from '../components/Contacto/ContactForm';
 ---
 
 <Layout title="ExacTec - Contáctenos">
-	<Whatsapp/>
-	<main class="px-[35px] bg-[#FFF] py-[55px]">
-		
-		<ContactForm client:load></ContactForm>
-
-	</main>
+  <main class="px-[35px] bg-[#FFF] py-[55px]">
+    <ContactForm client:load />
+  </main>
 </Layout>

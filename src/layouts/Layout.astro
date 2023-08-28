@@ -100,13 +100,13 @@ const { title } = Astro.props;
       >
         <a href="/servicios">Servicio</a>
       </ul>
-      <ul class="text-white text-sm pointer h-[35px] font-[300] mt-[12px] border-b-white border-b">
+      <ul
+        class="text-white text-sm pointer h-[35px] font-[300] mt-[12px] border-b-white border-b"
+      >
         <a href="/contacto">Contáctenos</a>
       </ul>
       <ul class="text-white text-sm pointer h-[35px] font-[300] mt-[12px]">
-        <div
-          class="flex rounded-2xl border relative justify-between p-[10px]"
-        >
+        <div class="flex rounded-2xl border relative justify-between p-[10px]">
           <SearchWidgetMobile />
           <i class="material-icons icon text-white">search</i>
         </div>
@@ -138,8 +138,14 @@ const { title } = Astro.props;
             <img class="w-full" src=`/icono-mail.svg` alt="Logo" />
           </figure><p>info@exactec.com.gt</p>
         </li>
+        <li class="flex">
+          <figure class="w-[27px] me-[10px]">
+            <img class="w-full" src=`/icono-tel.svg` alt="Logo" />
+          </figure>
+          <a href="tel:+50257558774">(+502) 5755-8774</a>
+        </li>
       </ul>
-      <p class="pe-7 md:pe-0 col-span-2 md:justify-self-start">
+      <p class="pe-7 md:pe-0 col-span-2 md:justify-self-start text-[16px]">
         Todos los derechos reservados, Exactitud y Tecnología.
       </p>
       <p class="">www.exactec.com.gt</p>

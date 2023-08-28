@@ -8,19 +8,21 @@ import Whatsapp from '../components/Whatsapp.astro';
 <Layout title="ExacTec - Servicios">
   <Whatsapp />
 
-  <main class="md:grid md:grid-cols-2 bg-secondary-bg lg:grid-rows-2 lg:pb-24">
-    <ServiciosList />
+  <main class="bg-secondary-bg lg:grid-rows-2 pb-24">
+    <div class="md:grid md:grid-cols-2 max-w-[1240px] mx-auto">
+      <ServiciosList />
 
-    <section class="pt-8 md:pt-[82px] md:mr-20 lg:row-span-2">
-      <figure class="flex justify-center">
-        <img
-          class="w-[305px] md:w-[328px] lg:w-[400px]"
-          src=`/assets/img-servicios.png`
-          alt="Logo"
-        />
-      </figure>
-    </section>
+      <section class="pt-8 md:pt-[82px] md:mr-20 lg:row-span-2">
+        <figure class="flex justify-center">
+          <img
+            class="w-[305px] md:w-[328px] lg:w-[400px]"
+            src=`/assets/img-servicios.png`
+            alt="Logo"
+          />
+        </figure>
+      </section>
 
-    <ServiciosMaintenance />
+      <ServiciosMaintenance />
+    </div>
   </main>
 </Layout>

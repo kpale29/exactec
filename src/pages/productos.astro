@@ -7,14 +7,16 @@ import Whatsapp from '../components/Whatsapp.astro';
 <Layout title="ExacTec - Productos">
   <Whatsapp />
 
-  <main class="md:px-[81px] bg-secondary-bg px-[35px]">
-    <header class="lg:mx-[101px] pt-10 md:text-center">
-      <h1 class="lg:text-5xl text-2xl md:text-5xl">Productos</h1>
-      <p class="my-5 text-justify md:px-20 md:text-center">
-        Sabemos que ser exactos y precisos es importante, por eso le ayudamos a contar con
-        tecnología de vanguardia.
-      </p>
-    </header>
-    <Products client:load />
+  <main class="bg-secondary-bg w-full">
+    <div class="lg:max-w-[1240px] mx-auto px-[35px] md:px-[85px]">
+      <header class="lg:mx-[101px] pt-10 md:text-center">
+        <h1 class="lg:text-5xl text-2xl md:text-5xl">Productos</h1>
+        <p class="my-5 text-justify md:px-20 md:text-center">
+          Sabemos que ser exactos y precisos es importante, por eso le ayudamos a contar
+          con tecnología de vanguardia.
+        </p>
+      </header>
+      <Products client:load />
+    </div>
   </main>
 </Layout>

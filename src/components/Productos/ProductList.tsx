@@ -6,7 +6,7 @@ export default function ProductList({ filterId }) {
     (product) => product.category == filterId
   );
   return (
-    <div>
+    <div className="w-full ">
       {productsList.map((product) => (
         <CardProduct
           key={product.id}

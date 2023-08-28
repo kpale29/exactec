@@ -40,9 +40,10 @@ export default function ProductsMenu({ onDataChange }) {
         </div>
       </div>
 
-      <div className="mb-4 flex appearance-none overflow-hidden border px-4 md:hidden">
+      <div className="relative mb-4 flex h-auto w-auto  items-center md:hidden">
         <select
-          className="h-10 w-full appearance-none border-0 text-sm"
+          title="Productos"
+          className="relative flex h-10 w-full cursor-pointer appearance-none items-center overflow-hidden border bg-transparent px-4 text-sm "
           onChange={handleSelectChange}
         >
           {categories.map((category) => (
@@ -51,7 +52,11 @@ export default function ProductsMenu({ onDataChange }) {
             </option>
           ))}
         </select>
-        <img className="w-4" src="/vector-10.svg" alt="arrow" />
+        <img
+          className="pointer-events-none absolute right-3 w-4"
+          src="/vector-10.svg"
+          alt="arrow"
+        />
       </div>
     </section>
   );

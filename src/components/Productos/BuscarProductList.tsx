@@ -65,27 +65,31 @@ export default function ProductList() {
     <div>
       <main className="bg-secondary-bg px-[35px] md:px-[81px]">
         <header className="pt-10 md:text-center">
-          <h1 className="text-2xl md:text-5xl lg:text-5xl mb-10 bg-[#1B75BB] p-5 text-white">
-          Búsqueda Relacionada a: <span>{searchReadout}</span>
+          <h1 className="mb-10 bg-[#1B75BB] p-5 text-2xl text-white md:text-5xl lg:text-5xl">
+            Búsqueda Relacionada a: <span>{searchReadout}</span>
           </h1>
         </header>
-        <div className=" grid grid-cols-1 gap-3 lg:gap-1 lg:grid-cols-2 2xl:m-auto  2xl:my-0">
-          {
-            productsList.length > 0 ?
-          productsList.map((product) => (
-            <CardProduct
-              key={product.item.id}
-              img={product.item.img}
-              name={product.item.name}
-              description={product.item.description}
-              items={product.item.items}
-            />
-          )): <div className='mb-10 font-bold'>
-            <p className='mb-10'>No existe ningún producto con esta descripción: "{searchReadout}"</p>
-            <a href="/productos/" className='underline text-[#1B75BB] mt-10'>Buscar por categoria</a>
+        <div className=" gap-3lg:grid-cols-2 grid grid-cols-1 lg:gap-1 2xl:m-auto  2xl:my-0">
+          {productsList.length > 0 ? (
+            productsList.map((product) => (
+              <CardProduct
+                key={product.item.id}
+                img={product.item.img}
+                name={product.item.name}
+                description={product.item.description}
+                items={product.item.items}
+              />
+            ))
+          ) : (
+            <div className="mb-10 font-bold">
+              <p className="mb-10">
+                No existe ningún producto con esta descripción: "{searchReadout}"
+              </p>
+              <a href="/productos/" className="mt-10 text-[#1B75BB] underline">
+                Buscar por categoria
+              </a>
             </div>
-          
-          }
+          )}
         </div>
       </main>
     </div>

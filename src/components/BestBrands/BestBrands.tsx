@@ -40,33 +40,33 @@ export default function ViewBestBrands() {
             <img
               src="/assets/img-marcas-1.png"
               alt=""
-              className={selectedItem !== 1 && 'hidden'}
+              className={selectedItem !== 1 ? 'hidden' : ''}
             />
             <img
               src="/assets/img-marcas-2.png"
               alt=""
-              className={selectedItem !== 1 && 'hidden'}
+              className={selectedItem !== 1 ? 'hidden' : ''}
             />
             <img
               src="/assets/img-marcas-3.png"
               alt=""
-              className={selectedItem !== 1 && 'hidden'}
+              className={selectedItem !== 1 ? 'hidden' : ''}
             />
 
             <img
               src="/assets/img-marcas-4.png"
               alt=""
-              className={selectedItem !== 2 && 'hidden'}
+              className={selectedItem !== 2 ? 'hidden' : ''}
             />
             <img
               src="/assets/img-marcas-5.png"
               alt=""
-              className={selectedItem !== 2 && 'hidden'}
+              className={selectedItem !== 2 ? 'hidden' : ''}
             />
             <img
               src="/assets/img-marcas-6.png"
               alt=""
-              className={selectedItem !== 2 && 'hidden'}
+              className={selectedItem !== 2 ? 'hidden' : ''}
             />
           </div>
         </div>

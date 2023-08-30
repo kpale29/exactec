@@ -39,7 +39,9 @@
     "products": [
         {
             "id": 1,
-            "img": "/assets/img-balanza1.png",
+            "img":[
+                "/assets/img-balanza1.png"
+            ],
             "name": "Balanzas analíticas",
             "description": "Características:",
             "items": [
@@ -54,7 +56,10 @@
         },
         {
             "id": 2,
-            "img": "/assets/img-balanza2.png",
+            "img":[
+
+                "/assets/img-balanza2.png"
+            ],
             "name": "Balanzas semi-micro analíticas",
             "description": "Características:",
             "items": [
@@ -69,7 +74,10 @@
         },
         {
             "id": 3,
-            "img": "/assets/img-balanza3.png",
+            "img":[
+
+                "/assets/img-balanza3.png"
+            ],
             "name": "Balanzas de precisión",
             "description": "Características:",
             "items": [
@@ -84,7 +92,10 @@
         },
         {
             "id": 4,
-            "img": "/assets/img-balanza4.png",
+            "img":[
+
+                "/assets/img-balanza4.png"
+            ],
             "name": "Balanzas portátiles",
             "description": "Características:",
             "items": [
@@ -97,7 +108,10 @@
         },
         {
             "id": 5,
-            "img": "/assets/img-balanza5.png",
+            "img":[
+
+                "/assets/img-balanza5.png"
+            ],
             "name": "Analizadores de humedad",
             "description": "Características:",
             "items": [
@@ -112,7 +126,10 @@
         },
         {
             "id": 6,
-            "img": "/assets/img-balanzamesa-300.png",
+            "img":[
+
+                "/assets/img-balanzamesa-300.png"
+            ],
             "name": "Balanzas de mesa",
             "description": "Características:",
             "items": [
@@ -127,7 +144,10 @@
         },
         {
             "id": 7,
-            "img": "/assets/img-agitadores-7000.jpg",
+            "img":[
+
+                "/assets/img-agitadores-7000.jpg"
+            ],
             "name": "Agitadores de calentamiento y agitación",
             "description": "Características:",
             "items": [
@@ -140,7 +160,10 @@
         },
         {
             "id": 8,
-            "img": "/assets/img-buffer.jpg",
+            "img":[
+
+                "/assets/img-buffer.jpg"
+            ],
             "name": "Soluciones buffer pH",
             "description": "Características:",
             "items": [
@@ -152,7 +175,10 @@
         },
         {
             "id": 9,
-            "img": "/assets/img-balanzamesa-001.jpg",
+            "img":[
+
+                "/assets/img-balanzamesa-001.jpg"
+            ],
             "name": "Básculas de mesa",
             "description": "Características:",
             "items": [
@@ -167,7 +193,10 @@
         },
         {
             "id": 10,
-            "img": "/assets/img-plataforma-001.jpg",
+            "img":[
+
+                "/assets/img-plataforma-001.jpg"
+            ],
             "name": "Básculas de Plataforma",
             "description": "Características:",
             "items": [
@@ -184,7 +213,10 @@
         },
         {
             "id": 11,
-            "img": "/assets/img-celdas-001.jpg",
+            "img":[
+
+                "/assets/img-celdas-001.jpg"
+            ],
             "name": "Celdas de carga",
             "description": "Características:",
             "items": [
@@ -198,7 +230,10 @@
         },
         {
             "id": 12,
-            "img": "/assets/img-microscopio1.png",
+            "img":[
+
+                "/assets/img-microscopio1.png"
+            ],
             "name": "Microscopios",
             "description": "Instrumentos diseñados para laboratorio de cursos educativos, trabajo rutinario, veterinaria, laboratorios de investigación, para ver muestras con una fuente de luz; se incluyen microscopios compuestos, de infrarrojos, simples y estereoscópicos, así como lámparas y accesorios (microscopios con cámaras con software incluido).",
             "items": [],
@@ -206,7 +241,10 @@
         },
         {
             "id": 13,
-            "img": "/assets/img-microscopio2.png",
+            "img":[
+
+                "/assets/img-microscopio2.png"
+            ],
             "name": "Estereosmicroscopios",
             "description": "Los microscopios estereoscópicos están construidos por medio de dos oculares a través de los cuales se ve la muestra; utilizados para examinar muestras opacas y macroscópicas (esteromicroscopios con cámaras de microscopía con software incluido).",
             "items": [],
@@ -214,7 +252,10 @@
         },
         {
             "id": 14,
-            "img": "/assets/pesa-patron1.png",
+            "img":[
+
+                "/assets/pesa-patron1.png"
+            ],
             "name": "Kit de pesas patrón",
             "description": "",
             "items": [
@@ -230,7 +271,10 @@
         },
         {
             "id": 15,
-            "img": "/assets/pesa-patron2.png",
+            "img":[
+
+                "/assets/pesa-patron2.png"
+            ],
             "name": "Pesas patrón individuales",
             "description": "",
             "items": [
@@ -244,7 +288,10 @@
         },
         {
             "id": 16,
-            "img": "/assets/img-indicador1.png",
+            "img":[
+
+                "/assets/img-indicador1.png"
+            ],
             "name": "Indicadores en plástico ABS",
             "description": "",
             "items": [
@@ -258,7 +305,10 @@
         },
         {
             "id": 17,
-            "img": "/assets/img-indicador2.png",
+            "img":[
+
+                "/assets/img-indicador2.png"
+            ],
             "name": "Indicador Defender2000",
             "description": "",
             "items": [
@@ -272,7 +322,10 @@
         },
         {
             "id": 18,
-            "img": "/assets/img-indicador3.png",
+            "img":[
+
+                "/assets/img-indicador3.png"
+            ],
             "name": "Indicador Defender3000",
             "description": "",
             "items": [
@@ -287,7 +340,10 @@
         },
         {
             "id": 19,
-            "img": "/assets/img-indicador4.png",
+            "img":[
+
+                "/assets/img-indicador4.png"
+            ],
             "name": "Indicador Defender5000",
             "description": "",
             "items": [
@@ -301,7 +357,10 @@
         },
         {
             "id": 20,
-            "img": "/assets/img-indicador5.png",
+            "img":[
+
+                "/assets/img-indicador5.png"
+            ],
             "name": "Indicador Defender6000",
             "description": "",
             "items": [
@@ -316,7 +375,10 @@
         },
         {
             "id": 21,
-            "img": "/assets/img-indicador6.png",
+            "img":[
+
+                "/assets/img-indicador6.png"
+            ],
             "name": "Indicadores en Acero Inoxidable",
             "description": "",
             "items": [
@@ -330,7 +392,10 @@
         },
         {
             "id": 22,
-            "img": "/assets/img-indicador7.png",
+            "img":[
+
+                "/assets/img-indicador7.png"
+            ],
             "name": "Indicador Defender3000",
             "description": "",
             "items": [
@@ -345,7 +410,10 @@
         },
         {
             "id": 23,
-            "img": "/assets/img-indicador8.png",
+            "img":[
+
+                "/assets/img-indicador8.png"
+            ],
             "name": "Indicador Defender5000",
             "description": "",
             "items": [
@@ -360,7 +428,10 @@
         },
         {
             "id": 24,
-            "img": "/assets/img-indicador9.png",
+            "img":[
+
+                "/assets/img-indicador9.png"
+            ],
             "name": "Indicador Defender6000",
             "description": "",
             "items": [
@@ -375,7 +446,10 @@
         },
         {
             "id": 25,
-            "img": "/assets/img-indicador10.png",
+            "img":[
+
+                "/assets/img-indicador10.png"
+            ],
             "name": "Indicador Defender7000",
             "description": "",
             "items": [
@@ -390,7 +464,10 @@
         },
         {
             "id": 26,
-            "img": "/assets/img-cristaleria.png",
+            "img":[
+
+                "/assets/img-cristaleria.png"
+            ],
             "name": "Cristalería – Insumos para Laboratorio",
             "description": "Contamos con cristalería básica para laboratorios de todo tipo (plástico – vidrio).",
             "items": [
@@ -409,7 +486,10 @@
         },
         {
             "id": 27,
-            "img": "/assets/img-accesorio1.png",
+            "img":[
+
+                "/assets/img-accesorio1.png"
+            ],
             "name": "Adaptadores para equipos",
             "description": "",
             "items": [
@@ -423,7 +503,10 @@
         },
         {
             "id": 28,
-            "img": "/assets/img-accesorio2.png",
+            "img":[
+
+                "/assets/img-accesorio2.png"
+            ],
             "name": "Impresora Matricial de Impacto - OHAUS",
             "description": "",
             "items": [
@@ -435,7 +518,10 @@
         },
         {
             "id": 29,
-            "img": "/assets/img-accesorio3.png",
+            "img":[
+
+                "/assets/img-accesorio3.png"
+            ],
             "name": "Impresora Térmica Compacta - Samsung",
             "description": "",
             "items": [
@@ -448,7 +534,10 @@
         },
         {
             "id": 30,
-            "img": "/assets/img-accesorio4.png",
+            "img":[
+
+                "/assets/img-accesorio4.png"
+            ],
             "name": "Impresora de Transferencia Térmica - Zebra",
             "description": "",
             "items": [
@@ -460,7 +549,10 @@
         },
         {
             "id": 31,
-            "img": "/assets/img-accesorio5.png",
+            "img":[
+
+                "/assets/img-accesorio5.png"
+            ],
             "name": "Baterías Recargables",
             "description": "",
             "items": [

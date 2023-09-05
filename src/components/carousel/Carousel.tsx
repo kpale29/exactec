@@ -136,7 +136,7 @@ export default function CarouselView() {
             className="h-[213px] w-[140px] md:h-[262px] md:w-[194px] 2xl:h-[318px] 2xl:w-[235px]"
           />
           <img
-            src="/assets/ohaus.png"
+            src="/assets/bascula.png"
             alt="ohaus"
             className="relative 
                       -left-[23px] 
